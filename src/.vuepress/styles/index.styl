@@ -1,0 +1,34 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+.home .hero img
+  max-width 450px!important
+
+.site-name.can-hide 
+  display none 
+
+span.prev
+  cursor pointer;
+  font-size 0;
+  a.prev
+    &::before
+      content "👈🏽"
+      font-size: 16px;
+      margin-right: 5px;
+    font-size: 16px;
+
+span.next
+  font-size: 0;
+  cursor pointer;
+  a
+    &::after
+      content "👉🏽"
+      font-size: 16px;
+      margin-left: 5px;
+    font-size: 16px;
+
+.custom-block.tip
+  border-color: #019df4;
