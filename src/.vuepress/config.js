@@ -72,7 +72,6 @@ module.exports = {
           children: [
             // "",
             "/guides/",
-            "vscode",
             "extensiones",
             "plugins"
           ],
