@@ -4,7 +4,7 @@ heroImage: /images/logo/logoWhite.png
 heroText: Una pequeña guía :D
 tagline:
 actionText: Comenzar 👊🏽
-actionLink: /guias/
+actionLink: /principal/
 
 footer: "Power by Jugaz ❤️"
 

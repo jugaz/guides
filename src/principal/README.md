@@ -16,11 +16,11 @@
  sudo apt-get install upgrate
 ```
 
-## Abre Vscode
+## Vscode
 ```bash
  git code
 ```
-## Abre Vscode insiders
+## Vscode insiders
 ```bash
  git code-insiders
 ```

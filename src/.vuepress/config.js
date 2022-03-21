@@ -55,45 +55,38 @@ module.exports = {
     nav: [
       {
         text: "guides",
-        link: "/guides/",
+        link: "/principal/",
       },
       // {
       //   text: "Config",
       //   link: "/config/",
       // },
     ],
-    sidebar: {
-      "/guides/": [
+    sidebar: { 
+      "/principal/": [
         {
           title: "Principal",
-          // path: "/guia/",
           collapsable: false,
-          // sidebarDepth: 1,
           children: [
-            // "",
-            "/guides/",
+            "/principal/",
             "extensiones",
             "plugins"
           ],
         },
         {
           title: "Ayudas",
-          // path: "/proyectos/",
           collapsable: false,
-          // sidebarDepth: 1,
           children: [
-            "helpers/git",
-            "helpers/hyper",
-            "helpers/commandos",
-            "helpers/llave-ssh"
+            "ayudas/comandos",
+            "ayudas/hyper",
+            "ayudas/git",
+            "ayudas/llave-ssh"
      
           ],
         },
         {
           title: "Front End",
-          // path: "/proyectos/",
           collapsable: false,
-          // sidebarDepth: 1,
           children: [
             // "",
             "frontend/deploy-sh",
