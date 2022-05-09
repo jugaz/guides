@@ -27,8 +27,8 @@
 
 ## Manual
 
-* [Vscode Shortcuts Windows](/guides/documents/keyboard-shortcuts-windows.pdf)
+* <a href="/guides/documents/keyboard-shortcuts-windows.pdf" target="_blank"> Vscode Shortcuts Windows </a>
 
-* [Vscode Shortcuts Macos](/guides/documents/keyboard-shortcuts-macos.pdf)
+* <a href="/guides/documents/keyboard-shortcuts-macos.pdf" target="_blank"> Vscode Shortcuts Macos </a>
 
-* [Vscode Shortcuts Linux](/guides/documents/keyboard-shortcuts-linux.pdf)
+* <a href="/guides/documents/keyboard-shortcuts-linux.pdf" target="_blank"> Vscode Shortcuts Linux </a>
