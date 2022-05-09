@@ -27,10 +27,8 @@
 
 # Manual
 
-* [VueJs atajos](/guides-personal/documents/VueJS-atajos.pdf)
+* [Vscode Shortcuts Windows](/guides/documents/keyboard-shortcuts-windows.pdf)
 
-* [Vscode Shortcuts Windows](/guides-personal/documents/keyboard-shortcuts-windows.pdf)
+* [Vscode Shortcuts Macos](/guides/documents/keyboard-shortcuts-macos.pdf)
 
-* [Vscode Shortcuts Macos](/guides-personal/documents/keyboard-shortcuts-macos.pdf)
-
-* [Vscode Shortcuts Linux](/guides-personal/documents/keyboard-shortcuts-linux.pdf)
+* [Vscode Shortcuts Linux](/guides/documents/keyboard-shortcuts-linux.pdf)

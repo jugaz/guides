@@ -32,8 +32,8 @@ git commit -m 'Deploy'
 echo
 echo "${green}############# Pushing Production  #############${reset}"
 echo
-#git push -f https://github.com/jugaz/vue-bitcoin.git master:production
-git push -f git@github.com:jugaz/vue-bitcoin.git master:production
+#git push -f https_name_proyecto master:production
+git push -f ssh_name_proyecto master:production
 
 cd -
 
@@ -43,7 +43,7 @@ echo
 
 git add .
 git commit -m 'Deploy'
-git push -f git@github.com:jugaz/vue-bitcoin.git master:master
+git push -f ssh_name_proyecto master:master
 
 cd -
 cd -

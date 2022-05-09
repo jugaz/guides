@@ -91,7 +91,8 @@ module.exports = {
             // "",
             "frontend/deploy-sh",
             "frontend/estructura",
-            "frontend/laravel-mix"
+            "frontend/laravel-mix",
+            "frontend/vue"
             // "using-vue",
           ],
         }
