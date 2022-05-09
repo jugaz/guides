@@ -5,7 +5,7 @@
 
 ## Vuex
 
-![fuente: vuex.vuejs.org ](/guides/imagenes/vuex/1.png)
+![fuente: vuex.vuejs.org ](/guides/images/vuex/1.png)
 
 - State: Similar a la data(), es reactivo
 
@@ -18,4 +18,7 @@
 - Modules: Agrupador de state, getters, mutations, actions y otros módulos. (Muuuuy útil)
 
 
-* [VueJs atajos](/guides/documents/VueJS-atajos.pdf)
+
+## Manual
+
+*[VueJs atajos](/guides/documents/VueJS-atajos.pdf)

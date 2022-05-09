@@ -25,7 +25,7 @@
  git code-insiders
 ```
 
-# Manual
+## Manual
 
 * [Vscode Shortcuts Windows](/guides/documents/keyboard-shortcuts-windows.pdf)
 
