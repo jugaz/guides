@@ -24,4 +24,4 @@
 
 
 ## Manual
-* <a href="/guides/documents/VueJS-atajos.pdf" target="_blank">
+* <a href="/guides/documents/VueJS-atajos.pdf" target="_blank"> Vuejs </a>
