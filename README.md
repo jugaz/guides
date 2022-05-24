@@ -14,6 +14,8 @@ npm run dev
 ```
 npm run prod
 ```
+### Customize configuration
+See [Configuration Reference](https://vuepress.vuejs.org/).
 
 ### Link
 https://jugaz.github.io/guides/
