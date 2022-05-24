@@ -19,7 +19,7 @@
     "vuepress-plugin-smooth-scroll": "0.0.10"
   },
 
-  "repository": {
+  "repository": { 
     "type": "git",
     "url": "git+https://github.com/jugaz/guides.git"
   },
