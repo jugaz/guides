@@ -1,4 +1,4 @@
-# guides
+# Guides
 
 ## Project setup
 ```
@@ -14,6 +14,7 @@ npm run dev
 ```
 npm run prod
 ```
+
 ### Customize configuration
 See [Configuration Reference](https://vuepress.vuejs.org/).
 
