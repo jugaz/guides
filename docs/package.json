@@ -1,0 +1,19 @@
+{
+  "name": "guides",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "authors": {
+    "name": "Jesús Ugaz Vegas",
+    "email": "jesusugazv@gmail.com"
+  },
+  "repository": "git@github.com:jugaz/guides.git/guides",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "prod": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
