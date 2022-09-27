@@ -64,6 +64,7 @@ module.exports = {
           collapsable: false,
           children: [
             "/principal/",
+            "oh-my-posh",
             "extensiones",
             "plugins"
           ],
