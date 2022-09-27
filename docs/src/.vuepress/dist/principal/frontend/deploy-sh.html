@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Deploy.sh | Jugaz - Guía</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="canonical" href="https://jugaz.github.io/guides/">
+    <link rel="icon" type="image/png" href="/guides/images/logo/logoWhite32x32.png">
+    <link rel="apple-touch-icon" href="/guides/images/logo/logoWhite32x32.png">
+    <link rel="mask-icon" href="/guides/images/logo/logoWhite32x32.png" color="#3eaf7c">
+    <meta name="description" content="Guia de utilidades">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#157878">
+    <meta property="og:description" content="Guia">
+    <meta property="og:locale" content="en_PE">
+    <meta property="og:site_name" content="Guia">
+    <meta property="og:title" content="Guia">
+    <meta property="og:url" content="https://jugaz.github.io/guides/">
+    <meta name="msapplication-TileImage" content="/images/logo/logoWhite32x32.png">
+    
+    <link rel="preload" href="/guides/assets/css/0.styles.97bdca02.css" as="style"><link rel="preload" href="/guides/assets/js/app.369adfc7.js" as="script"><link rel="preload" href="/guides/assets/js/2.6539ea43.js" as="script"><link rel="preload" href="/guides/assets/js/18.726221ee.js" as="script"><link rel="prefetch" href="/guides/assets/js/10.b28b6b51.js"><link rel="prefetch" href="/guides/assets/js/11.06d12a0f.js"><link rel="prefetch" href="/guides/assets/js/12.07fc75ab.js"><link rel="prefetch" href="/guides/assets/js/13.c17f4288.js"><link rel="prefetch" href="/guides/assets/js/14.68e11746.js"><link rel="prefetch" href="/guides/assets/js/15.27befa5f.js"><link rel="prefetch" href="/guides/assets/js/16.945db237.js"><link rel="prefetch" href="/guides/assets/js/17.5b5ae363.js"><link rel="prefetch" href="/guides/assets/js/19.872efbb1.js"><link rel="prefetch" href="/guides/assets/js/20.27937c32.js"><link rel="prefetch" href="/guides/assets/js/21.aa35f39b.js"><link rel="prefetch" href="/guides/assets/js/22.781f8a5b.js"><link rel="prefetch" href="/guides/assets/js/23.e4e83adc.js"><link rel="prefetch" href="/guides/assets/js/3.e7369c87.js"><link rel="prefetch" href="/guides/assets/js/4.5eda2563.js"><link rel="prefetch" href="/guides/assets/js/5.fd813512.js"><link rel="prefetch" href="/guides/assets/js/6.14027d31.js"><link rel="prefetch" href="/guides/assets/js/7.a0f5761d.js"><link rel="prefetch" href="/guides/assets/js/8.b47553f8.js"><link rel="prefetch" href="/guides/assets/js/9.814ce037.js">
+    <link rel="stylesheet" href="/guides/assets/css/0.styles.97bdca02.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/guides/" class="home-link router-link-active"><img src="images/logo/logoWhite.png" alt="Jugaz - Guía" class="logo"> <span class="site-name can-hide">Jugaz - Guía</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guides/principal/" class="nav-link router-link-active">
+  guides
+</a></div> <a href="https://github.com/jugaz/guides" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guides/principal/" class="nav-link router-link-active">
+  guides
+</a></div> <a href="https://github.com/jugaz/guides" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Principal</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guides/principal/" aria-current="page" class="sidebar-link">Introduccion</a></li><li><a href="/guides/principal/oh-my-posh.html" class="sidebar-link">Oh my posh</a></li><li><a href="/guides/principal/extensiones.html" class="sidebar-link">Extensiones</a></li><li><a href="/guides/principal/plugins.html" class="sidebar-link">Plugins Vscode</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>Ayudas</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guides/principal/ayudas/comandos.html" class="sidebar-link">Comandos</a></li><li><a href="/guides/principal/ayudas/hyper.html" class="sidebar-link">Hyper.js</a></li><li><a href="/guides/principal/ayudas/git.html" class="sidebar-link">Git</a></li><li><a href="/guides/principal/ayudas/llave-ssh.html" class="sidebar-link">LLave SSH</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Front End</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/guides/principal/frontend/deploy-sh.html" aria-current="page" class="active sidebar-link">Deploy.sh</a></li><li><a href="/guides/principal/frontend/estructura.html" class="sidebar-link">Estructura</a></li><li><a href="/guides/principal/frontend/laravel-mix.html" class="sidebar-link">Laravel Mix</a></li><li><a href="/guides/principal/frontend/vue.html" class="sidebar-link">Vue</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="deploy-sh"><a href="#deploy-sh" class="header-anchor">#</a> Deploy.sh</h1> <h4 id="un-pequeno-de-como-hacer-un-deploy-automatico"><a href="#un-pequeno-de-como-hacer-un-deploy-automatico" class="header-anchor">#</a> Un pequeño de como hacer un deploy automático</h4> <div class="language-js extra-class"><pre class="language-js"><code># abort on errors
+set <span class="token operator">-</span>e
+
+green<span class="token operator">=</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">tput setaf 2</span><span class="token template-punctuation string">`</span></span>
+reset<span class="token operator">=</span><span class="token template-string"><span class="token template-punctuation string">`</span><span class="token string">tput sgr0</span><span class="token template-punctuation string">`</span></span>
+echo <span class="token string">&quot;${green}############# Install NPM #############${reset}&quot;</span>
+echo
+npm i
+
+echo
+echo <span class="token string">&quot;${green}############# Build #############${reset}&quot;</span>
+echo
+npm run build
+# navigate into the build output directory
+cd docs
+
+# <span class="token keyword">if</span> you are deploying to a custom domain
+# echo <span class="token string">'www.example.com'</span> <span class="token operator">&gt;</span> <span class="token constant">CNAME</span>
+echo
+echo <span class="token string">&quot;${green}############# Deploying #############${reset}&quot;</span>
+echo
+git init
+git add <span class="token punctuation">.</span>
+git commit <span class="token operator">-</span>m <span class="token string">'Deploy'</span>
+
+echo
+echo <span class="token string">&quot;${green}############# Pushing Production  #############${reset}&quot;</span>
+echo
+#git push <span class="token operator">-</span>f https_name_proyecto master<span class="token operator">:</span>production
+git push <span class="token operator">-</span>f ssh_name_proyecto master<span class="token operator">:</span>production
+
+cd <span class="token operator">-</span>
+
+echo
+echo <span class="token string">&quot;${green}############# Pushing Master  #############${reset}&quot;</span>
+echo
+
+git add <span class="token punctuation">.</span>
+git commit <span class="token operator">-</span>m <span class="token string">'Deploy'</span>
+git push <span class="token operator">-</span>f ssh_name_proyecto master<span class="token operator">:</span>master
+
+cd <span class="token operator">-</span>
+cd <span class="token operator">-</span>
+
+echo
+echo <span class="token string">&quot;${green}############# Checkout #############${reset}&quot;</span>
+echo
+git checkout <span class="token operator">-</span>f production
+rm <span class="token operator">-</span>rf docs<span class="token operator">/</span> 
+rm <span class="token operator">-</span>rf node_modules<span class="token operator">/</span>
+rm <span class="token operator">-</span>rf <span class="token keyword">package</span><span class="token operator">-</span>lock<span class="token punctuation">.</span>json
+
+cd <span class="token operator">-</span>
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">9/27/2022, 5:18:55 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guides/principal/ayudas/llave-ssh.html" class="prev">
+        LLave SSH
+      </a></span> <span class="next"><a href="/guides/principal/frontend/estructura.html">
+        Estructura
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/guides/assets/js/app.369adfc7.js" defer></script><script src="/guides/assets/js/2.6539ea43.js" defer></script><script src="/guides/assets/js/18.726221ee.js" defer></script>
+  </body>
+</html>

@@ -291,5 +291,5 @@
  git config --global alias.superfetch "fetch -f -p"
 ```
 ```bash
- git config --global alias.superbranch "branch --all -f -p"
+ git config --global alias.superbranch "branch --all -f"
 ```
