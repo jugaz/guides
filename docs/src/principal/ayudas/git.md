@@ -168,6 +168,10 @@
  git rebase nombre_rama
 ```
 
+# Remote
+```bash
+ git remote add origin url_repo
+```
 # Reset
 #### Volver en el tiempo de un archivo
 ```bash
@@ -282,4 +286,10 @@
 ```bash
  git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
  git superlog
+```
+```bash
+ git config --global alias.superfetch "fetch -f -p"
+```
+```bash
+ git config --global alias.superbranch "branch --all -f -p"
 ```
